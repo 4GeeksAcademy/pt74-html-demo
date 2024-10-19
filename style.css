@@ -1,17 +1,4 @@
-:root {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-size: 24px;
-
-  background-color: rgb(40, 55, 66);
-  color: #d5d5d5;
-}
-
-.headline {
-  width: 75%;
-  margin: 1rem auto;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  text-align: center;
+.brand-image {
+  height: 3rem;
+  width: auto;
 }
