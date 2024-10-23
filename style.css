@@ -2,3 +2,22 @@
   height: 3rem;
   width: auto;
 }
+
+.media-query-test {
+  background: none;
+}
+
+@media (width < 750px) {
+  .media-query-test {
+    background: teal;
+  }
+}
+
+.dog-card {
+  width: 25rem;
+
+  & > img {
+    width: 100%;
+    height: auto;
+  }
+}
